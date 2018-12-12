@@ -4,10 +4,6 @@
 
 
 
-## Table of Contents
-
-[TOC]
-
 ## Setup
 
 To set up your python environment to run the code in this repository, follow the instructions below.
@@ -106,7 +102,7 @@ python -m ipykernel install --user --name cc-ddpg --display-name "cc-ddpg"
 
 
 
-**Examples:**
+### Examples
 
 | Test Bed         |                                  |
 | ---------------- | -------------------------------- |
@@ -118,8 +114,3 @@ python -m ipykernel install --user --name cc-ddpg --display-name "cc-ddpg"
 | Hyper-Parameters | Episodes to Solve |   Training Time    |
 | ---------------- | :---------------: | :----------------: |
 | All Default      |        360        | 1 hour 30 min 19 s |
-
-
-
-### Watch Trained Agent
-
