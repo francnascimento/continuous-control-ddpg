@@ -4,10 +4,6 @@
 
 
 
-### Table of Contents
-
-[TOC]
-
 ### Environment Details
 
 |                       Structure                        |                             Goal                             |                         Observations                         |
