@@ -77,28 +77,26 @@ python -m ipykernel install --user --name cc-ddpg --display-name "cc-ddpg"
 
 3. **Set Kernel for Notebook:** Before running code in a notebook, change the kernel to match the `cc-ddpg` environment by using the drop-down `Kernel` menu.
 
-4. 
+   ![](./images/select_kernel_cc.png)
+
+4. **Train and Watch DDPG Agent:** To train and watch the DDPG agent run the cells the the notebook.
 
 ### Train Agents
 
-| Hyper-Parameters  | Description                                           |  Default   |
-| ----------------- | ----------------------------------------------------- | :--------: |
-| `random_seed`     | The random seed                                       |    `10`    |
-| `lr_actor`        | Learning rate for the Actor Model                     |   `1e-4`   |
-| `lr_critic`       | Learning rate for the Critic Model                    |   `3e-4`   |
-| `w_decay`         | L2 weight decay for Critic Model                      |   `1e-5`   |
-| `noise`           |                                                       |    `2`     |
-| `theta`           |                                                       |   `0.15`   |
-| `sigma`           |                                                       |   `0.2`    |
-| `noise_reduction` |                                                       |  `0.9999`  |
-| `buffer_size`     | The replay memory buffer size                         | `int(1e6)` |
-| `batch_size`      | Mini-batch size                                       |   `256`    |
-| `gamma`           | Reward discount factor                                |   `0.99`   |
-| `tau`             | For soft update of target parameters                  |   `1e-3`   |
-| `add_noise`       | Add noise to action space during training             |   `True`   |
-| `update_every`    | Time step interval for learning from experiences      |    `4`     |
-| `target_avg`      | Average score required to consider environment solved |   `30.0`   |
-| `n_episodes`      | Maximum number of episodes to train the models        |   `2000`   |
+| Hyper-Parameters | Description                                           |  Default   |
+| ---------------- | ----------------------------------------------------- | :--------: |
+| `random_seed`    | The random seed                                       |    `10`    |
+| `lr_actor`       | Learning rate for the Actor Model                     |   `1e-4`   |
+| `lr_critic`      | Learning rate for the Critic Model                    |   `3e-4`   |
+| `w_decay`        | L2 weight decay for Critic Model                      |   `1e-5`   |
+| `buffer_size`    | The replay memory buffer size                         | `int(1e6)` |
+| `batch_size`     | Mini-batch size                                       |   `256`    |
+| `gamma`          | Reward discount factor                                |   `0.99`   |
+| `tau`            | For soft update of target parameters                  |   `1e-3`   |
+| `add_noise`      | Add noise to action space during training             |   `True`   |
+| `update_every`   | Time step interval for learning from experiences      |    `4`     |
+| `target_avg`     | Average score required to consider environment solved |   `30.0`   |
+| `n_episodes`     | Maximum number of episodes to train the models        |   `2000`   |
 
 
 
