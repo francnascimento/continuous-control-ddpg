@@ -26,11 +26,11 @@ To set up your python environment to run the code in this repository, follow the
 
 2. **Clone the repository, and navigate to the `python/` folder.  Then, install several dependencies.**
 
-```bash
-git clone https://github.com/cj-mills/continuous-control-ddpg.git
-cd continuous-control-ddpg/python
-pip install .
-```
+   ```bash
+   git clone https://github.com/cj-mills/continuous-control-ddpg.git
+   cd continuous-control-ddpg/python
+   pip install .
+   ```
 
 3. **Download and unzip the Unity Environment.**
 
@@ -47,10 +47,9 @@ pip install .
 
 5. **Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `cc-ddpg` environment.**
 
-```bash
-python -m ipykernel install --user --name cc-ddpg --display-name "cc-ddpg"
-```
-
+   ```bash
+   python -m ipykernel install --user --name cc-ddpg --display-name "cc-ddpg"
+   ```
 
 
 ## Environment Details
