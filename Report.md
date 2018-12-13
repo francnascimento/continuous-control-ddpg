@@ -22,7 +22,7 @@
 
 ### Learning Algorithm
 
-
+The learning algorithm uses DDPG. There is a single agent that picks actions for all 20 environment agents. Ornstein-Uhlenbeck noise is added to the action space during training and decays as training continues.
 
 ### Network Architectures
 
